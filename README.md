@@ -9,19 +9,26 @@ This library has not been tested as much yet as ajaxorg/node-o3-xml, however it 
 If you need a tested XML library go use node-o3-xml, but if you want a much faster library try this one.
 The API should be the identical W3C-DOM as in the browser and the node-o3-xml component.
 
-To use this library simply clone the repo, and require('node-o3-fastxml') to return the parser object.
-This repository is a generated build for node 0.2.2 stable, from the o3 repository (http://github.com/ajaxorg/o3)
+#Usage
+
+To use this library add the node-o3-fastxml/lib directory to your require path, and use the following line:
+
+    var parser = require('o3-fastxml');
+
+Or alternatively: 
+
+    var parser = require('/full/path/node-o3-fastxml/lib/o3-fastxml'); 
+
+This returns the normal XML parser object as we know from webbrowsers. This repository is a generated build for node 0.2.2 stable, from the o3 repository [ajaxorg/o3](http://github.com/ajaxorg/o3).
 
 Binaries included for:
 
-* win32 (through cygwin)
-
-* lin32 
-
-* osx64
+ * win32 (through cygwin)
+ * lin32 
+ * osx64
 
 Other platforms and bit-ness (32/64) will be added to the automated build VM incrementally.
 If you need to build this node-o3-xml module yourself or want to contribute to the source, please look at the main o3 repository.
 
 If you are looking for the accompanying binary builds of NodeJS check out the 
-(http://github.com/ajaxorg/node-builds) repository
+[ajaxorg/node-builds](http://github.com/ajaxorg/node-builds) repository
