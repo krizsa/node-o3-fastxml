@@ -7,7 +7,7 @@ Since LibXML2 is a beast in terms of complexity and performance, and nodeJS is a
 This library has not been tested as much yet as ajaxorg/node-o3-xml, however it is much faster and should use much less memory. What it currently lacks is DOM namespace suppport, and it will never support whitespaces in your XML tree as the standard requires. However for most actual uses of XML on the server this is perfectly acceptable.
 
 If you need a tested XML library go use node-o3-xml, but if you want a much faster library try this one.
-The API should be the identical W3C-DOM as the browser has, and node-o3-xml has.
+The API should be the identical W3C-DOM as in the browser and the node-o3-xml component.
 
 To use this library simply clone the repo, and require('node-o3-fastxml') to return the parser object.
 This repository is a generated build for node 0.2.2 stable, from the o3 repository (http://github.com/ajaxorg/o3)
